@@ -1,0 +1,32 @@
+body,
+h1,
+p {
+  margin: 0;
+}
+.container {
+  width: 360px;
+  background-color: skyblue;
+  margin: 40px auto;
+}
+.title,
+.description {
+  text-align: center;
+}
+.description {
+  margin: 20px 0;
+}
+form > div {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.label-width {
+  display: inline-block;
+  width: 70px;
+}
+[type="text"],
+[type="password"] {
+  width: 290px;
+  height: 32px;
+  border: 1px solid #ccc;
+}
